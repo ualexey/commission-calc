@@ -7,7 +7,7 @@ and prints the results. The system is designed to be flexible, allowing for easy
 ## Installation
 1. **Clone the repository:**
 ```
-git clone https://github.com/.../commission-calculator.git
+git clone https://github.com/ualexey/commission-calc.git
 cd commission-calculator
 ```
 
@@ -17,7 +17,7 @@ docker-compose build
 ```
 3. **Run Docker container:**
 ```
-docker-compose up -d
+docker-compose up
 ```
 
 4. **Run tests:**

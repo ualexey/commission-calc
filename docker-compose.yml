@@ -14,4 +14,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/var/www
-    command: ["composer", "test"]
+    command: ["./vendor/bin/phpunit"]
