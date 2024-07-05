@@ -18,5 +18,5 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 COPY . .
 
 # Install PHP dependencies
-RUN composer install --no-interaction --no-plugins --no-scripts
+RUN composer install
 
