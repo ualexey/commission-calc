@@ -8,7 +8,7 @@ and prints the results. The system is designed to be flexible, allowing for easy
 1. **Clone the repository:**
 ```
 git clone https://github.com/ualexey/commission-calc.git
-cd commission-calculator
+cd commission-calc
 ```
 
 2. **Build Docker image:**
@@ -41,11 +41,7 @@ php bin/console process:commissions path/to/your/input.txt
 ```
 
 ## Services Configuration
-The services are configured in `config/services.yaml`. The default configuration uses:
-- `https://lookup.binlist.net/` for BIN information.
-- `https://api.exchangeratesapi.io/latest` for exchange rate information.
-
-You can change these URLs by updating the `arguments` in `services.yaml`
+The services are configured in `config/services.yaml`
 
 ## Extending Providers
 1. Create a new implementation of `BinProviderInterface` or `ExchangeRateProviderInterface`
