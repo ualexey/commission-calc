@@ -15,9 +15,9 @@ cd commission-calculator
 ```
 docker-compose build
 ```
-3. **Run Docker container:**
+3. **Install dependencies:**
 ```
-docker-compose up
+composer install
 ```
 
 4. **Run tests:**
